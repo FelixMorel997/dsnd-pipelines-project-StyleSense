@@ -1,54 +1,52 @@
-# README Template
+# StyleSense — Product Recommendation from Reviews
 
-Below is a template provided for use when building your README file for students.
-
-# Project Title
-
-Project description goes here.
+This project builds a machine learning model that predicts whether a customer recommends a clothing product (Recommended IND = 1) or does not recommend it (Recommended IND = 0) based on review text, product metadata, and reviewer information.
+The work is primarily done in the notebook: starter/starter.ipynb.
 
 ## Getting Started
 
-Instructions for how to get a copy of the project running on your local machine.
+These instructions will help you run the project locally, install dependencies, and open the notebook.
 
 ### Dependencies
 
-```
-Examples here
-```
+* Python 3.10+ (recommended)
+* Project dependencies listed in `requirements.txt`
 
 ### Installation
 
-Step by step explanation of how to get a dev environment running.
+The project is designed to be run in a local Python virtual environment.
 
-List out the steps
+1. Clone the repository to your local machine.
+2. Create a Python virtual environment using Python 3.10 or newer.
+3. Activate the virtual environment.
+4. Install the project dependencies from `requirements.txt`.
+5. Launch Jupyter Notebook and open `starter/starter.ipynb`.
 
-```
-Give an example here
-```
+Example:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate    # or equivalent on your operating system
+pip install -r requirements.txt
+jupyter notebook
+
 
 ## Testing
 
-Explain the steps needed to run any automated tests
-
-### Break Down Tests
-
-Explain what each test does and why
-
-```
-Examples here
+This project does not include automated tests
 ```
 
 ## Project Instructions
 
-This section should contain all the student deliverables for this project.
+**Deliverable:** a completed Jupyter notebook at `starter/starter.ipynb`.
+Clear documentation of findings, design choices, and results directly are specified within the notebook.
 
 ## Built With
 
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
+* [pandas](https://pandas.pydata.org) - Data loading and manipulation
+* [scikit-learn](https://scikit-learn.org) - Pipelines, preprocessing, models, and hyperparameter tuning
+* [matplotlib](https://matplotlib.org) - Visualizations
 
-Include all items used to build project.
 
 ## License
 
